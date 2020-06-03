@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "jin-icon": "/components/jin-edit/jin-icons",
+    "jsfun-record": "/components/jsfun-record/jsfun-record"
+  }
+}

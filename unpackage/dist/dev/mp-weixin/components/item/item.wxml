@@ -1,0 +1,1 @@
+<view class="item data-v-0942aaa0"><block wx:if="{{text}}"><text class="text data-v-0942aaa0">{{text}}</text></block><block wx:if="{{imgPath}}"><image src="{{imgPath}}" mode class="data-v-0942aaa0"></image></block></view>

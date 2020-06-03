@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "笔记",
+  "navigationStyle": "custom",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
+    "item": "/components/item/item"
+  }
+}
