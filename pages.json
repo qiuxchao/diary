@@ -6,21 +6,21 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "笔记",
-				"navigationStyle": "custom" ,// 隐藏系统导航栏
-				"navigationBarTextStyle": "white" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
+				"navigationBarTitleText": "日常笔记",
+				"navigationBarTextStyle": "black", // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
+				"enablePullDownRefresh": true	// 开启下拉刷新
 			}
 		}
 	    ,{
             "path" : "pages/write/write",
             "style": {
-            	"navigationBarTitleText": "笔记",
-            	"navigationStyle": "custom" ,// 隐藏系统导航栏
-            	"navigationBarTextStyle": "white" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
+            	"navigationBarTitleText": "编辑笔记",
+            	"navigationBarTextStyle": "black" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
             }
         }
     ],
 	"globalStyle": {
+		"navigationStyle": "custom" ,// 隐藏系统导航栏
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",

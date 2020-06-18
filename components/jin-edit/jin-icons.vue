@@ -13,11 +13,11 @@
 			},
 			color: {
 				type: String,
-				default: '#666666'
+				default: '#fff'
 			},
 			fontSize: {
 				type: String,
-				default: '34rpx'
+				default: '40rpx'
 			}
 		},
 		methods: {
@@ -42,7 +42,8 @@
 
 	.icon {
 		font-family: jin !important;
-		font-size: 34rpx;
+		font-size: 40rpx;
+		font-weight: bold;
 	}
 
 </style>
